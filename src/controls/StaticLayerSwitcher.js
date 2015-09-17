@@ -247,6 +247,7 @@ L.StaticLayerSwitcher = L.Control.extend({
 		var span = document.createElement('span');
 		span.style.fontSize = '12pt';
 		span.style.marginLeft = '12px';
+		span.style.float = 'right';
 		span.appendChild(upClick);
 		span.appendChild(downClick);
 		span.appendChild(xClick);
